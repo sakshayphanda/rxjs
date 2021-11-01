@@ -28,7 +28,7 @@ export class Store {
                 map(res => Object.values(res['payload']))
             )
             .subscribe(
-                courses => this.subject.next(courses)
+                (courses: Course[]) => this.subject.next(courses)
             );
     }
 
