@@ -3,7 +3,7 @@ import {
     concat,
     fromEvent,
     interval,
-    noop,
+    noop, // its equal to -->  () => {}
     observable,
     Observable,
     of,
